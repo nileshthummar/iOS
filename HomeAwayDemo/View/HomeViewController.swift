@@ -15,6 +15,7 @@ class HomeViewController: UIViewController {
     let searchController = UISearchController(searchResultsController: nil)
     //Internet reachability check
     let reachability = Reachability()!
+    var searchTask: DispatchWorkItem?
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -27,6 +28,7 @@ class HomeViewController: UIViewController {
         }
     }
     override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
         NotificationCenter.default.addObserver(self, selector: #selector(reachabilityChanged(note:)), name: .reachabilityChanged, object: reachability)
         do{
             try reachability.startNotifier()
@@ -97,6 +99,20 @@ class HomeViewController: UIViewController {
 extension HomeViewController: UISearchResultsUpdating {
     // MARK: - UISearchResultsUpdating Delegate
     func updateSearchResults(for searchController: UISearchController) {
+        //check for text length > 3 if needed
+        // Cancel previous task if any
+        self.searchTask?.cancel()
+        // Replace previous task with a new one
+        let task = DispatchWorkItem { [weak self] in
+            self?.sendSearchRequest()
+        }
+        self.searchTask = task        
+        // Execute task in 0.5 seconds (if not cancelled !)
+        //seconds update base on requirement
+        DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 0.5, execute: task)
+        
+    }
+    func sendSearchRequest(){
         viewModel.fetchEvents(searchText: searchController.searchBar.text!) {
             DispatchQueue.main.async {
                 self.tableView.reloadData()
