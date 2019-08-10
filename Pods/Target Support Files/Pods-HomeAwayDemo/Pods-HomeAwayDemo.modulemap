@@ -1,6 +1,0 @@
-framework module Pods_HomeAwayDemo {
-  umbrella header "Pods-HomeAwayDemo-umbrella.h"
-
-  export *
-  module * { export * }
-}
