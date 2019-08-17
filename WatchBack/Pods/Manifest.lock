@@ -1,0 +1,73 @@
+PODS:
+  - AppsFlyerFramework (4.10.0)
+  - Brightcove-Player-Core (6.4.3):
+    - Brightcove-Player-Core/default (= 6.4.3)
+  - Brightcove-Player-Core/default (6.4.3)
+  - ComScore (5.8.5):
+    - ComScore/Dynamic (= 5.8.5)
+  - ComScore/Dynamic (5.8.5)
+  - Crashlytics (3.13.2):
+    - Fabric (~> 1.10.2)
+  - Fabric (1.10.2)
+  - FBSDKCoreKit (5.1.1):
+    - FBSDKCoreKit/Basics (= 5.1.1)
+    - FBSDKCoreKit/Core (= 5.1.1)
+  - FBSDKCoreKit/Basics (5.1.1)
+  - FBSDKCoreKit/Core (5.1.1):
+    - FBSDKCoreKit/Basics
+  - iCarousel (1.8.3)
+  - Leanplum-iOS-SDK (2.4.3)
+  - MBProgressHUD (1.1.0)
+  - SDWebImage (5.0.6):
+    - SDWebImage/Core (= 5.0.6)
+  - SDWebImage/Core (5.0.6)
+  - Shimmer (1.0.2)
+  - Toast (3.1.0)
+
+DEPENDENCIES:
+  - AppsFlyerFramework
+  - Brightcove-Player-Core
+  - ComScore
+  - Crashlytics
+  - Fabric
+  - FBSDKCoreKit
+  - iCarousel (~> 1.8)
+  - Leanplum-iOS-SDK
+  - MBProgressHUD (~> 1.1)
+  - SDWebImage (~> 5.0)
+  - Shimmer (~> 1.0)
+  - Toast (~> 3.1.0)
+
+SPEC REPOS:
+  https://github.com/brightcove/BrightcoveSpecs.git:
+    - Brightcove-Player-Core
+  https://github.com/cocoapods/specs.git:
+    - AppsFlyerFramework
+    - ComScore
+    - Crashlytics
+    - Fabric
+    - FBSDKCoreKit
+    - iCarousel
+    - Leanplum-iOS-SDK
+    - MBProgressHUD
+    - SDWebImage
+    - Shimmer
+    - Toast
+
+SPEC CHECKSUMS:
+  AppsFlyerFramework: d356c24fa0653bfa518b09613f6b46e980600e90
+  Brightcove-Player-Core: 4b6f0f190b1d383ab729cef8aaa2865dd095ae79
+  ComScore: e7349d7612401c65cd0bfced9aa68a7c6e31bda9
+  Crashlytics: 611738c7847f8291a1a51084e35987b86ba6b3ee
+  Fabric: 706c8b8098fff96c33c0db69cbf81f9c551d0d74
+  FBSDKCoreKit: c29b6b65f6a171ca0a317960a622cff62c9ee269
+  iCarousel: d782f635afac190c49bb8ee455882284cff8b85f
+  Leanplum-iOS-SDK: a3626a878f1a351a5509d4425d72ceb77f173847
+  MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
+  SDWebImage: 920f1a2ff1ca8296ad34f6e0510a1ef1d70ac965
+  Shimmer: c5374be1c2b0c9e292fb05b339a513cf291cac86
+  Toast: 14a93686d6c8bfe2727afd342414e35660a8a1f3
+
+PODFILE CHECKSUM: 9ca76654843a7e097468b0d3eaf6acecbec36a02
+
+COCOAPODS: 1.5.3
