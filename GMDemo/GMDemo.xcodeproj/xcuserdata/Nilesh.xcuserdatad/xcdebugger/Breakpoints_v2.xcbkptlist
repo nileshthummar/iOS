@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GMDemo/API/CommitAPI.swift"
+            timestampString = "586975232.790396"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "allCommitsAsync(request:_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Foundation.Data, Swift.Error&gt;) -&gt; () in GMDemo.CommitAPI.allCommitsAsync(request: GMDemo.Requests, _: (Swift.Result&lt;Swift.Array&lt;GMDemo.GMCommit&gt;, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "GMDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Nilesh/Downloads/GM/GMDemo/GMDemo/API/CommitAPI.swift"
+                  timestampString = "586989362.0437419"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "320">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Foundation.Data, Swift.Error&gt;) -&gt; () in GMDemo.CommitAPI.allCommitsAsync(request: GMDemo.Requests, _: (Swift.Result&lt;Swift.Array&lt;GMDemo.GMCommit&gt;, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "GMDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Nilesh/Downloads/GM/GMDemo/GMDemo/API/CommitAPI.swift"
+                  timestampString = "586989362.045361"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "334">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GMDemo/Extensions/DateExtensions.swift"
+            timestampString = "586975846.88895"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "format(date:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
