@@ -12,7 +12,6 @@
 		0D08470522B5B92500A64BA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D08470422B5B92500A64BA5 /* Assets.xcassets */; };
 		0D08470822B5B92500A64BA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D08470622B5B92500A64BA5 /* LaunchScreen.storyboard */; };
 		0D08471322B5B92500A64BA5 /* PhunwareTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D08471222B5B92500A64BA5 /* PhunwareTests.swift */; };
-		0D08471E22B5B92500A64BA5 /* PhunwareUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D08471D22B5B92500A64BA5 /* PhunwareUITests.swift */; };
 		0D08473622B5BC2300A64BA5 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D08472F22B5BC2300A64BA5 /* Service.swift */; };
 		0D08473822B5BC2300A64BA5 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D08473122B5BC2300A64BA5 /* Result.swift */; };
 		0D08473922B5BC2300A64BA5 /* UIImageExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D08473322B5BC2300A64BA5 /* UIImageExtensions.swift */; };
@@ -51,18 +50,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0D0846FA22B5B92400A64BA5 /* Phunware.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Phunware.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D0846FA22B5B92400A64BA5 /* iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D0846FD22B5B92400A64BA5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0D08470222B5B92400A64BA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0D08470422B5B92500A64BA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0D08470722B5B92500A64BA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0D08470922B5B92500A64BA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0D08470E22B5B92500A64BA5 /* PhunwareTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhunwareTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D08470E22B5B92500A64BA5 /* iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D08471222B5B92500A64BA5 /* PhunwareTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhunwareTests.swift; sourceTree = "<group>"; };
 		0D08471422B5B92500A64BA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0D08471922B5B92500A64BA5 /* PhunwareUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhunwareUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0D08471D22B5B92500A64BA5 /* PhunwareUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhunwareUITests.swift; sourceTree = "<group>"; };
-		0D08471F22B5B92500A64BA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D08471922B5B92500A64BA5 /* iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D08472F22B5BC2300A64BA5 /* Service.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
 		0D08473122B5BC2300A64BA5 /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
 		0D08473322B5BC2300A64BA5 /* UIImageExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageExtensions.swift; sourceTree = "<group>"; };
@@ -111,9 +108,8 @@
 		0D0846F122B5B92400A64BA5 = {
 			isa = PBXGroup;
 			children = (
-				0D0846FC22B5B92400A64BA5 /* Phunware */,
-				0D08471122B5B92500A64BA5 /* PhunwareTests */,
-				0D08471C22B5B92500A64BA5 /* PhunwareUITests */,
+				0D0846FC22B5B92400A64BA5 /* iOS */,
+				0D08471122B5B92500A64BA5 /* iOSTests */,
 				0D0846FB22B5B92400A64BA5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -121,14 +117,14 @@
 		0D0846FB22B5B92400A64BA5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0D0846FA22B5B92400A64BA5 /* Phunware.app */,
-				0D08470E22B5B92500A64BA5 /* PhunwareTests.xctest */,
-				0D08471922B5B92500A64BA5 /* PhunwareUITests.xctest */,
+				0D0846FA22B5B92400A64BA5 /* iOS.app */,
+				0D08470E22B5B92500A64BA5 /* iOSTests.xctest */,
+				0D08471922B5B92500A64BA5 /* iOSUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0D0846FC22B5B92400A64BA5 /* Phunware */ = {
+		0D0846FC22B5B92400A64BA5 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
 				0D08475122B6B50100A64BA5 /* Resources */,
@@ -144,25 +140,16 @@
 				0D08470622B5B92500A64BA5 /* LaunchScreen.storyboard */,
 				0D08470922B5B92500A64BA5 /* Info.plist */,
 			);
-			path = Phunware;
+			path = iOS;
 			sourceTree = "<group>";
 		};
-		0D08471122B5B92500A64BA5 /* PhunwareTests */ = {
+		0D08471122B5B92500A64BA5 /* iOSTests */ = {
 			isa = PBXGroup;
 			children = (
 				0D08471222B5B92500A64BA5 /* PhunwareTests.swift */,
 				0D08471422B5B92500A64BA5 /* Info.plist */,
 			);
-			path = PhunwareTests;
-			sourceTree = "<group>";
-		};
-		0D08471C22B5B92500A64BA5 /* PhunwareUITests */ = {
-			isa = PBXGroup;
-			children = (
-				0D08471D22B5B92500A64BA5 /* PhunwareUITests.swift */,
-				0D08471F22B5B92500A64BA5 /* Info.plist */,
-			);
-			path = PhunwareUITests;
+			path = iOSTests;
 			sourceTree = "<group>";
 		};
 		0D08472B22B5BC2300A64BA5 /* models */ = {
@@ -235,9 +222,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0D0846F922B5B92400A64BA5 /* Phunware */ = {
+		0D0846F922B5B92400A64BA5 /* iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0D08472222B5B92500A64BA5 /* Build configuration list for PBXNativeTarget "Phunware" */;
+			buildConfigurationList = 0D08472222B5B92500A64BA5 /* Build configuration list for PBXNativeTarget "iOS" */;
 			buildPhases = (
 				0D0846F622B5B92400A64BA5 /* Sources */,
 				0D0846F722B5B92400A64BA5 /* Frameworks */,
@@ -247,14 +234,14 @@
 			);
 			dependencies = (
 			);
-			name = Phunware;
+			name = iOS;
 			productName = Phunware;
-			productReference = 0D0846FA22B5B92400A64BA5 /* Phunware.app */;
+			productReference = 0D0846FA22B5B92400A64BA5 /* iOS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		0D08470D22B5B92500A64BA5 /* PhunwareTests */ = {
+		0D08470D22B5B92500A64BA5 /* iOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0D08472522B5B92500A64BA5 /* Build configuration list for PBXNativeTarget "PhunwareTests" */;
+			buildConfigurationList = 0D08472522B5B92500A64BA5 /* Build configuration list for PBXNativeTarget "iOSTests" */;
 			buildPhases = (
 				0D08470A22B5B92500A64BA5 /* Sources */,
 				0D08470B22B5B92500A64BA5 /* Frameworks */,
@@ -265,14 +252,14 @@
 			dependencies = (
 				0D08471022B5B92500A64BA5 /* PBXTargetDependency */,
 			);
-			name = PhunwareTests;
+			name = iOSTests;
 			productName = PhunwareTests;
-			productReference = 0D08470E22B5B92500A64BA5 /* PhunwareTests.xctest */;
+			productReference = 0D08470E22B5B92500A64BA5 /* iOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		0D08471822B5B92500A64BA5 /* PhunwareUITests */ = {
+		0D08471822B5B92500A64BA5 /* iOSUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0D08472822B5B92500A64BA5 /* Build configuration list for PBXNativeTarget "PhunwareUITests" */;
+			buildConfigurationList = 0D08472822B5B92500A64BA5 /* Build configuration list for PBXNativeTarget "iOSUITests" */;
 			buildPhases = (
 				0D08471522B5B92500A64BA5 /* Sources */,
 				0D08471622B5B92500A64BA5 /* Frameworks */,
@@ -283,9 +270,9 @@
 			dependencies = (
 				0D08471B22B5B92500A64BA5 /* PBXTargetDependency */,
 			);
-			name = PhunwareUITests;
+			name = iOSUITests;
 			productName = PhunwareUITests;
-			productReference = 0D08471922B5B92500A64BA5 /* PhunwareUITests.xctest */;
+			productReference = 0D08471922B5B92500A64BA5 /* iOSUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -311,7 +298,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 0D0846F522B5B92400A64BA5 /* Build configuration list for PBXProject "Phunware" */;
+			buildConfigurationList = 0D0846F522B5B92400A64BA5 /* Build configuration list for PBXProject "iOS" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -324,9 +311,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0D0846F922B5B92400A64BA5 /* Phunware */,
-				0D08470D22B5B92500A64BA5 /* PhunwareTests */,
-				0D08471822B5B92500A64BA5 /* PhunwareUITests */,
+				0D0846F922B5B92400A64BA5 /* iOS */,
+				0D08470D22B5B92500A64BA5 /* iOSTests */,
+				0D08471822B5B92500A64BA5 /* iOSUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -397,7 +384,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0D08471E22B5B92500A64BA5 /* PhunwareUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -406,12 +392,12 @@
 /* Begin PBXTargetDependency section */
 		0D08471022B5B92500A64BA5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 0D0846F922B5B92400A64BA5 /* Phunware */;
+			target = 0D0846F922B5B92400A64BA5 /* iOS */;
 			targetProxy = 0D08470F22B5B92500A64BA5 /* PBXContainerItemProxy */;
 		};
 		0D08471B22B5B92500A64BA5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 0D0846F922B5B92400A64BA5 /* Phunware */;
+			target = 0D0846F922B5B92400A64BA5 /* iOS */;
 			targetProxy = 0D08471A22B5B92500A64BA5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -604,7 +590,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Phunware.app/Phunware";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS.app/iOS";
 			};
 			name = Debug;
 		};
@@ -624,7 +610,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Phunware.app/Phunware";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS.app/iOS";
 			};
 			name = Release;
 		};
@@ -669,7 +655,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0D0846F522B5B92400A64BA5 /* Build configuration list for PBXProject "Phunware" */ = {
+		0D0846F522B5B92400A64BA5 /* Build configuration list for PBXProject "iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0D08472022B5B92500A64BA5 /* Debug */,
@@ -678,7 +664,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0D08472222B5B92500A64BA5 /* Build configuration list for PBXNativeTarget "Phunware" */ = {
+		0D08472222B5B92500A64BA5 /* Build configuration list for PBXNativeTarget "iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0D08472322B5B92500A64BA5 /* Debug */,
@@ -687,7 +673,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0D08472522B5B92500A64BA5 /* Build configuration list for PBXNativeTarget "PhunwareTests" */ = {
+		0D08472522B5B92500A64BA5 /* Build configuration list for PBXNativeTarget "iOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0D08472622B5B92500A64BA5 /* Debug */,
@@ -696,7 +682,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0D08472822B5B92500A64BA5 /* Build configuration list for PBXNativeTarget "PhunwareUITests" */ = {
+		0D08472822B5B92500A64BA5 /* Build configuration list for PBXNativeTarget "iOSUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0D08472922B5B92500A64BA5 /* Debug */,
