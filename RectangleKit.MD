@@ -10,6 +10,8 @@
 ### Output: 
 ##### Shortest list of zero or more rectangle, each rectangle has area greater than zero, each rectangle sits directly on top of its neighbors (i.e. there is no horizontal gap between rectangles).  The output rectangles cover the same space as the input rectangles. By this we mean that the output rectangles have the same area as the input rectangles, and the silhouette / outline of the collection of output rectangles is the same as the silhouette / outline of the collection of input rectangle.
 
+### RectangleKit written in Swift.
+
 #### Function Defination 
 
 ```
@@ -54,3 +56,27 @@ RectangleKit.shared.setDebugDelegate({(error) in
         })
 ```        
         
+
+
+
+
+# RectangleKitDemo Application 
+
+##### Test application that uses RectangleKit. The application creates the input list (generated randomly), sends this list to RectangleKit to do the calculations, and then shows the output list of rectangle. The application should graphically display the input and output lists. The test application written in Swift, and use SwiftUI to display the list of rectangles graphically.
+
+
+#### Two Navigation bar buttons for Dummy Data:
+ 
+#### 1. "Random Input" button :  
+&nbsp; &nbsp; => creates the input list of CGRect (generated randomly). Method name "HomeViewModel"->"randomRectsInput" 
+&nbsp; &nbsp; => Method name "HomeViewModel"->"randomRectsInput" 
+&nbsp; &nbsp; => Random Number of Rantangle 1..<15
+&nbsp; &nbsp; => Random width 10..<50
+&nbsp; &nbsp; => Random height 10..<150
+
+#### 2. "Select Input" button :  
+&nbsp; &nbsp; => Read the input list from the local dummy "mock.josn" file  
+&nbsp; &nbsp; => Method name "HomeViewModel"->"fetchDummyData" 
+
+  
+
