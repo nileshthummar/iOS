@@ -77,6 +77,7 @@ RectangleKit.shared.setDebugDelegate({(error) in
 #### 2. "Select Input" button :  
 ##### => Read the input list from the local dummy "mock.josn" file  
 ##### => Method name "HomeViewModel"->"fetchDummyData" 
+##### => In Dummy Input from "mock.json" last Input is Invalid input to test Error Handler and will return empty output array.
 
   
 
