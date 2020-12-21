@@ -81,3 +81,12 @@ RectangleKit.shared.setDebugDelegate({(error) in
 
   
 
+# RectangleKit Code Files
+
+```
+## RectangleKit.swift: 
+#### Main file with public methods and Algorithm logic. # Time Complecity O(n) - where n = Number of Rectangle in Input array
+# Space complecity O(n) in worst case, best case : O(1)
+
+
+```
