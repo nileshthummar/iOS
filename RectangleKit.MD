@@ -14,7 +14,19 @@
 
 ```
 //asynchronous call and run in background
-public func rotatingRectangles(_ arrRects:[CGRect]) -> [CGRect]
+public func rotatingRectangles(_ arrRects:[CGRect], _ completion:@escaping ([CGRect]) -> Void){
+```
 
+```
+//synchronous call and run in same thread as caller 
+public func rotatingRectangles(_ arrRects:[CGRect]) -> [CGRect] {
+```
+
+### Example: 
+```
+RectangleKit.shared.rotatingRectangles(
+                [CGRect.init(x: 0, y: 0, width: 20, height: 50),
+                CGRect.init(x: 20, y: 0, width: 30, height: 30),
+                CGRect.init(x: 50, y: 0, width: 20, height: 40)]])
 ```
 
