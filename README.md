@@ -101,3 +101,12 @@ RectangleKit.shared.setDebugDelegate({(error) in
 # "Utilities" Group for Defined different Error types. 
 # "Network" Group for Network call, for now used for read mock.json dummy data file. but we can easly change to server URL if needed in future. 
 ```
+
+# Make it universal framework
+
+```
+# Option 1 : Build XCFramework (universal) framework
+# Option 2 : Add a “Run Script” which generates the Universal Framework.
+Select Project Target → Edit Schema → Archive → Post-actions → Press “+” → New Run Script Action.
+
+```
