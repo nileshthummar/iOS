@@ -68,15 +68,15 @@ RectangleKit.shared.setDebugDelegate({(error) in
 #### Two Navigation bar buttons for Dummy Data:
  
 #### 1. "Random Input" button :  
-&nbsp; &nbsp; => creates the input list of CGRect (generated randomly). Method name "HomeViewModel"->"randomRectsInput" 
-&nbsp; &nbsp; => Method name "HomeViewModel"->"randomRectsInput" 
-&nbsp; &nbsp; => Random Number of Rantangle 1..<15
-&nbsp; &nbsp; => Random width 10..<50
-&nbsp; &nbsp; => Random height 10..<150
+##### => creates the input list of CGRect (generated randomly). Method name "HomeViewModel"->"randomRectsInput" 
+##### => Method name "HomeViewModel"->"randomRectsInput" 
+##### => Random Number of Rantangle 1..<15
+##### => Random width 10..<50
+##### => Random height 10..<150
 
 #### 2. "Select Input" button :  
-&nbsp; &nbsp; => Read the input list from the local dummy "mock.josn" file  
-&nbsp; &nbsp; => Method name "HomeViewModel"->"fetchDummyData" 
+##### => Read the input list from the local dummy "mock.josn" file  
+##### => Method name "HomeViewModel"->"fetchDummyData" 
 
   
 
