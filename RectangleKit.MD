@@ -23,10 +23,12 @@ public func rotatingRectangles(_ arrRects:[CGRect]) -> [CGRect] {
 ```
 
 ### Example: 
+
 ```
 let arrInputRects = [CGRect.init(x: 0, y: 0, width: 20, height: 50),
                     CGRect.init(x: 20, y: 0, width: 30, height: 30),
                     CGRect.init(x: 50, y: 0, width: 20, height: 40)]
+                    
 let arrOutputRects = RectangleKit.shared.rotatingRectangles(arrInputRects)
                 
 RectangleKit.shared.rotatingRectangles(arrInputRects, {(arr) in
@@ -35,3 +37,20 @@ RectangleKit.shared.rotatingRectangles(arrInputRects, {(arr) in
 })                
 ```
 
+### Error Delegate
+
+#### Error Delegate will call closure with error details in DEBUG MODE only 
+
+#### Function Defination 
+
+```
+public func setDebugDelegate(_ completion: @escaping (Error) -> Void) {
+```
+
+### Example: 
+```
+RectangleKit.shared.setDebugDelegate({(error) in
+            print(error)
+        })
+```        
+        
