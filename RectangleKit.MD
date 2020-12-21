@@ -84,9 +84,20 @@ RectangleKit.shared.setDebugDelegate({(error) in
 # RectangleKit Code Files
 
 ```
-## RectangleKit.swift: 
-#### Main file with public methods and Algorithm logic. # Time Complecity O(n) - where n = Number of Rectangle in Input array
-# Space complecity O(n) in worst case, best case : O(1)
+# RectangleKit.swift:  Main file with public methods and Algorithm logic. 
+    - Time Complecity O(n) - where n = Number of Rectangle in Input array
+    - Space complecity O(n) in worst case, best case : O(1)
+# RectangleKitStack.swift: Created custom stack for keep height and index of the rectangle. used stack instead of Array for Push and Pop in O(1) time.    
+# RectangleKitErrorType.swift : Defined different Error types. 
 
+```
 
+# RectangleKitDemo Code Files
+
+```
+# ContentView.swift:Main View File 
+# HomeViewModel.swift: View Model class for Main View
+# Rentangle.swift: Model file for Main View Dummy Data.
+# "Utilities" Group for Defined different Error types. 
+# "Network" Group for Network call, for now used for read mock.json dummy data file. but we can easly change to server URL if needed in future. 
 ```
